@@ -3,9 +3,8 @@
 // Sumar el resultado de lanzar dos dados y anotar en un array el número de apariciones de dicha suma, 
 // repitiendo 36.000 veces esta operación.
 
-
 var sums = [];
-let repeats = {};
+let repeats = {};77
 var sum = 0; 
 var i = 0;
 
