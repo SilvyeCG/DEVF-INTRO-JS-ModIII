@@ -27,7 +27,7 @@ class Stack{
     }
 
     print(){
-        console.log(this.stack)
+        console.log(Object.values(this.stack))
     }
 
     isEmpty(){

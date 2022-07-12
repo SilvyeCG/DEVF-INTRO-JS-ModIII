@@ -25,7 +25,7 @@ let res = ['a', 'b'];
 // console.log(result2)
 
 //console.log(result = array.every(el => el>2)) //comprueba si TODOS cumplen la condicion (tipo boolean)
-console.log(result = array.some(el => el>2)) //comprueba si ALGUNO cumple la condicion (boolean)
+//console.log(result = array.some(el => el>2)) //comprueba si ALGUNO cumple la condicion (boolean)
 
 //console.log(result = array.includes(2)) //busca si el array incluye ese valor
 
@@ -34,11 +34,17 @@ console.log(result = array.some(el => el>2)) //comprueba si ALGUNO cumple la con
 // let result3 = array.slice(1,4)
 // console.log(result3)
 
-console.log(result = array.reduce((acc, el) => acc + el, 0))
+// console.log(result = array.splice(2,3,'a','b'));
 
-console.log(result = array.fill(0,2,5)) //coloca 0 a partir del 2 index, hasta el anterior al 5
-console.log(result = array.fill(0,2))
-console.log(result = array.fill(0))
+// console.log(result = array.reverse())
 
-array.shift()
-array.unshift(1,2)
+// console.log(result = array.sort())
+console.log(result = array.sort((a,b) => b-a))
+// console.log(result = array.reduce((acc, el) => acc + el, 0))
+
+// console.log(result = array.fill(0,2,5)) //coloca 0 a partir del 2 index, hasta el anterior al 5
+// console.log(result = array.fill(0,2))
+// console.log(result = array.fill(0))
+
+// array.shift()
+// array.unshift(1,2)
