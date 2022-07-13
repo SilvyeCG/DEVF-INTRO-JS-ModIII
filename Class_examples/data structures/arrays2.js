@@ -39,7 +39,7 @@ let res = ['a', 'b'];
 // console.log(result = array.reverse())
 
 // console.log(result = array.sort())
-console.log(result = array.sort((a,b) => b-a))
+console.log(result = array.sort((a,b) => b-a)) //de mayor a menor
 // console.log(result = array.reduce((acc, el) => acc + el, 0))
 
 // console.log(result = array.fill(0,2,5)) //coloca 0 a partir del 2 index, hasta el anterior al 5
