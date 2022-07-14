@@ -66,7 +66,7 @@ class LinkedList{
 
     isEmpty(){
         return this.head == null
-        //return this.currentSize = 0;
+        //return this.currentSize = 0; //both works
     }
 
     clear(){
