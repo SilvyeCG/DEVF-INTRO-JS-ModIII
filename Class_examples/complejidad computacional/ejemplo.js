@@ -10,4 +10,4 @@ function printArrays(arr1,arr2){
     }
 }
 
-printArrays(numbers1, numbers2)
+printArrays(numbers1, numbers2);
