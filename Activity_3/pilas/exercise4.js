@@ -6,3 +6,32 @@ deben retirarse primero los contenedores que están encima de él y colocarlos e
 pila, efectuar el retiro y regresarlos a su respectivo lugar.
 
 */
+
+class Stack{
+    constructor(){
+        this.stack = {}
+        this.count = 0 //este funciona como key del obj
+
+    }
+
+    push(element){
+        this.stack[this.count] = element
+        this.count++
+        return this.stack
+        
+    }
+
+    sort(object){
+       
+       
+    }
+
+}
+
+let stack = new Stack();
+
+stack.push('Blue')
+stack.push('Esmeralda')
+stack.push('Green')
+stack.push('Yellow')
+console.log(stack.push('Red'))
