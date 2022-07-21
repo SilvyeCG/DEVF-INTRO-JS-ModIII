@@ -19,7 +19,7 @@ class Stack{
 
     print(number){
         for(let i = 0; i < number; i++){
-            var newStack = this.stack.slice(0, number);
+            var newStack = this.stack.slice(number);
         }
         return newStack
     }
