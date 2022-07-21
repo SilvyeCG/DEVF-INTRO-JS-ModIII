@@ -7,6 +7,7 @@ function findNumber(array, number){
     for(let i = 0; i < array.length; i++){
         if(array[i] == number){
             console.log(`Encontre el numero en ${i} pasos`)
+            return `Encontre el numero en ${i} pasos`
         }
     }
 }
