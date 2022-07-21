@@ -22,7 +22,8 @@ class Stack{
     }
 
     sort(object){
-       
+       var stack2 = []
+       var indexObject = stack.indexObject()
        
     }
 
